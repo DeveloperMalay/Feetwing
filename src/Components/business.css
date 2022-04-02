@@ -1,0 +1,82 @@
+.business {
+  background: #e5e5e5;
+  height: 1110px;
+  width: 100%;
+}
+
+.heading {
+  position: absolute;
+  left: 60px;
+  top: 145px;
+}
+.rectangle {
+  position: absolute;
+  width: 1233px;
+  height: 235px;
+  left: 36px;
+  top: 208px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.title1 h3 {
+  display: inline-block;
+  margin: 20px 28px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.title1 span {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.description {
+  margin: -25px 28px;
+}
+.description p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.description span {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.workStatus {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  color: #000000;
+  margin: 40px 28px;
+}
+.otherSection {
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.paid {
+  font-size: 18px;
+  font-weight: 500;
+  color: greenyellow;
+  margin: -30px;
+}
+
+.gratis {
+  font-size: 18px;
+  font-weight: 500;
+  color: red;
+}

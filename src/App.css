@@ -1,0 +1,261 @@
+.App {
+  background: #e5e5e5;
+  height: 1110px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+.dashboard {
+  position: absolute;
+  top: 60px;
+  left: 440px;
+}
+
+.formdetails {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.header {
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.title {
+  margin-left: -397px;
+}
+.title input {
+  width: 600px;
+  height: 20px;
+  background: rgba(196, 196, 196, 0.5);
+  border: #585858;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+  color: #000000;
+  font-size: 20px;
+}
+::-moz-placeholder {
+  color: #000000;
+  font-size: 20px;
+}
+:-ms-input-placeholder {
+  color: #000000;
+  font-size: 20px;
+}
+:-moz-placeholder {
+  color: #000000;
+  font-size: 20px;
+}
+input:focus {
+  outline: none;
+  font-size: 20px;
+}
+.empoymentType {
+  margin-left: 197px;
+}
+.empoymentType select {
+  height: 38px;
+  width: 400px;
+  border-radius: 10px;
+  background: rgba(196, 196, 196, 0.5);
+  border: #585858;
+  border-radius: 10px;
+  padding-left: 16px;
+  font-size: 17px;
+}
+select option {
+  color: #000000;
+  font-size: 15px;
+  float: left;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+select option :focus {
+  outline: none;
+  border: 0;
+}
+.otherdetail {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.otherdetail {
+  margin-bottom: 30px;
+}
+.location {
+  margin-left: -397px;
+}
+.location input {
+  height: 38px;
+  width: 200px;
+  background: rgba(196, 196, 196, 0.5);
+  border: #585858;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.jobsection {
+  margin-left: 20px;
+}
+.jobsection select {
+  height: 38px;
+  width: 315px;
+  border-radius: 10px;
+  padding-left: 16px;
+  font-size: 17px;
+  background: rgba(196, 196, 196, 0.5);
+  border: #585858;
+  border-radius: 12px;
+}
+.workplacetype {
+  margin-left: 20px;
+}
+.workplacetype select {
+  height: 38px;
+  width: 315px;
+  border-radius: 10px;
+  padding-left: 16px;
+  font-size: 17px;
+  background: rgba(196, 196, 196, 0.5);
+  border: #585858;
+  border-radius: 10px;
+}
+.paid2 {
+  margin-left: 20px;
+}
+.paid2 select {
+  height: 38px;
+  width: 315px;
+  border-radius: 10px;
+  padding-left: 16px;
+  font-size: 17px;
+  background: rgba(196, 196, 196, 0.5);
+  border: #585858;
+  border-radius: 10px;
+}
+.short_description {
+  margin-left: -397px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.short_description input {
+  width: 1197px;
+  height: 20px;
+  background: rgba(196, 196, 196, 0.5);
+  border: #585858;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+.job_description {
+  margin-left: -397px;
+  height: 510px;
+  width: 1210px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.job_description h3 {
+  margin: 40px 0 0 30px;
+}
+.job_description p {
+  margin: 10px 0 10px 30px;
+}
+.job_description sup{
+  color: rgb(66, 167, 226);
+}
+.logos{
+  margin-left: 30px;
+  display: flex;
+  justify-content: first baseline;
+}
+.logos .icon {
+  width: 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+.logos .icon1 {
+  width: 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+.logos .icon2 {
+  width: 17px;
+  margin: 10px;
+  cursor: pointer;
+}
+.logos .icon3 {
+  width: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+.logos .icon4 {
+  width: 26.5px;
+  margin: 6px;
+  cursor: pointer;
+}
+
+
+.descriparea {
+  margin: 10px 0 10px 30px;
+}
+.descriparea input {
+  width: 1200px;
+  height: 400px;
+  font-size: 20px;
+}
+.descriparea input:focus{
+  font-size: 20px;
+}
+textarea{
+  font-size: 20px;
+  resize: none;
+}
+.skillpara {
+  color: #585858;
+  font-size: 12px;
+}
+.btn {
+  margin-left: 50px;
+  margin-top: 40px;
+  border: 1px solid green;
+  border-radius: 15px;
+  padding: 8px;
+  width: 76px;
+  color: green;
+  cursor: pointer;
+  transition: all.2s ease-in-out;
+}
+.btn:hover {
+  transform: scale(1, 1.1);
+}
+.submit button {
+  height: 38px;
+  width: 100px;
+  border: 1px solid #c4c4c4;
+  border-radius: 12px;
+  background: #c4c4c4;
+  color: #000000;
+  margin: 30px 0 30px 700px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.submit button:hover {
+  transform: scale(1, 1.1);
+}
